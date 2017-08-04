@@ -14,7 +14,7 @@ ent = raw_input(Fore.CYAN + " MODULE hashes :>>" + "\033[0m ")
 
 #print(Fore.GREEN + z + "\033[0m \n"+Fore.GREEN +ent ),"\033[0m \n"
 hash_h = hashlib.new(ent)
-z = z.encode("utf-8")
+#z = z.encode("utf-8")
 
 hash_h.update(z) 
 
