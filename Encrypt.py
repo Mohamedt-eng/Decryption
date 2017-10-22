@@ -18,4 +18,4 @@ z = z.encode("utf-8")
 
 hash_h.update(z) 
 
-print(Fore.GREEN + z +"\033[0m " +" is hash :  " + Fore.YELLOW + hash_h.hexdigest())
+print(Fore.GREEN + z +"\033[0m " +" is hash :  " + Fore.YELLOW + hash_h.hexdigest()+"\033[0m")
