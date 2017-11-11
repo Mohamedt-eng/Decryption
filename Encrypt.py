@@ -5,7 +5,7 @@ h = hashlib.algorithms_available
 print("______MODUL HASH________")
 print("========================")
 for i in h :
-    print i
+    print(i)
 print("======================================================")
 
 z = raw_input( Fore.CYAN +"ENTER text :>>" + "\033[0m ")
