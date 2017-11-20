@@ -9,13 +9,13 @@ chmod +x install.sh
 ===================
 command :
 ===================
-Decrypt2                (not wordlist read help)
+Decrypt2  _____________(not wordlist read help)
 --------------------------
-Decrypt                 (wordlist , mod , hash)
+Decrypt  ______________(wordlist , mod , hash)
 --------------------------
-Encrypt                 (text , mod)
+Encrypt  ______________(text , mod)
 --------------------------
-geturl                  (site )
+geturl  _______________(site )
 --------------------------
-wordlist                (creat wordlist exampl:     wordlist > /root/Desktop/dodo.txt click ok entre 5 name)
+wordlist ______________(creat wordlist exampl:     wordlist > /root/Desktop/dodo.txt click ok entre 5 name)
 
