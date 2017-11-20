@@ -2,7 +2,9 @@
 
 example : 
 cd /root/Downloads/Decryption-master/
+===================================
 chmod +x install.sh
+===================================
 ./install.sh
 ===================
 command :
