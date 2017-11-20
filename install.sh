@@ -20,7 +20,11 @@ echo "alias Encrypt='python /usr/bin/Encrypt.py'"  >> /etc/bash.bashrc
 echo "alias geturl='python /usr/bin/geturl.py'"  >> /etc/bash.bachrc
 echo "alias wlist='python3 /usr/bin/wordlist.py'"  >> /etc/bash.bachrc
 
-
+echo "alias Decrypt2='python3 /usr/bin/Decrypt2.py'" >> /root/.bashrc
+echo "alias Decrypt='python /usr/bin/Decrypt.py'" >> /root/.bashrc
+echo "alias Encrypt='python /usr/bin/Encrypt.py'"  >> /root/.bashrc
+echo "alias geturl='python /usr/bin/geturl.py'"  >> /root/.bachrc
+echo "alias wlist='python3 /usr/bin/wordlist.py'"  >> /root/.bachrc
 
 clear
 exit
