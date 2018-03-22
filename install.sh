@@ -1,11 +1,11 @@
 #!/bin/bash
 
 read -p "Waiting for installation scripts   [ Encypt Decrypt Decrypt2 ] " -t 4
-mv /root/Downloads/Decryption-master/Decrypt2.py /usr/bin/
-mv /root/Downloads/Decryption-master/Decrypt.py /usr/bin/
-mv /root/Downloads/Decryption-master/Encrypt.py /usr/bin/
-mv /root/Downloads/Decryption-master/geturl.py /usr/bin/
-mv /root/Downloads/Decryption-master/wordlist.py /usr/bin/
+mv Decrypt2.py /usr/bin/
+mv Decrypt.py /usr/bin/
+mv Encrypt.py /usr/bin/
+mv geturl.py /usr/bin/
+mv wordlist.py /usr/bin/
 
 alias Decrypt2='python3 /usr/bin/Decrypt2.py'
 alias Decrypt='python /usr/bin/Decrypt.py'
