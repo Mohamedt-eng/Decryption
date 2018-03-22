@@ -1,6 +1,7 @@
 #!/bin/bash
 
 read -p "Waiting for installation scripts   [ Encypt Decrypt Decrypt2 ] " -t 4
+chmod +x Decrypt2.py Decrypt.py Encrypt.py geturl.py wordlist.py
 mv Decrypt2.py /usr/bin/
 mv Decrypt.py /usr/bin/
 mv Encrypt.py /usr/bin/
