@@ -89,7 +89,7 @@ class BruteforceAttackHash:
         self.encyWord = self.encryptionWord(self.typeHash,Word)
         self.encyHash = self.encyHash
         if self.encyWord == self.encyHash:return True
-        print(" Not This : ".yellow()+self.encyWord.blue() + " [ "+ "{0}".format(Word).yellow() +" ]")
+        print(" Not This : ".yellow()+self.encyWord.green() + " [ "+ "{0}".format(Word).yellow() +" ]")
         if self.encyWord != self.encyHash: return False
     def Help(self):
         print("""
